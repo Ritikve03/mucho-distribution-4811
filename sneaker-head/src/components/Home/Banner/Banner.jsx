@@ -12,9 +12,7 @@ const Banner = () => {
             <div className="banner-cta v2">Shop Now</div>
           </div>
         </div>
-        <img className="banner-img" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFlBJVos55byT5njMnk4wJ-WH9VL6lxhKqxw&usqp=CAU" alt="" style={{
-            borderRadius: "5%"
-        }}/>
+        <img className="banner-img" src= "https://www.linkpicture.com/q/logo_36.jpg" alt="" />
       </div>
     </div>
   );
