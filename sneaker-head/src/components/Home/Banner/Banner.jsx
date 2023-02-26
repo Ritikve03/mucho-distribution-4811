@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="content">
         <div className="text-content">
           <h1>SALES</h1>
-          <p>"Sneakerheads don't chase trends, we set them.".</p>
+          <p>"Sneakerheads don't chase trends, we set them"</p>
           <div className="ctas">
             <div className="banner-cta">Read More</div>
             <div className="banner-cta v2">Shop Now</div>
