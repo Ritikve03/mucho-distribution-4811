@@ -1,10 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Header from "./components/Header/Header";
+import Header from "./components/header/Header";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import Category from "./components/Category/Category";
-import SingleProducts from "./components/SingleProducts/SingleProducts";// import Newsletter from "./components/Footer/Newsletter/Newsletter";
+import SingleProducts from "./components/SingleProducts/SingleProducts";
 import AppContext from "./utils/Context";
+import Newsletter from "./components/Footer/Newsletter/Newsletter";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route path="/category/:id" element={<Category />} />
           <Route path="/product/:id" element={<SingleProducts />} />
         </Routes>
-        {/* <Newsletter /> */}
+        <Newsletter />
         <Footer />
       </AppContext>
     </BrowserRouter>
